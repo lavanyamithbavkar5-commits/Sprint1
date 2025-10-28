@@ -4,9 +4,9 @@ import Sidebar from './Components/Sidebar';
 import Dashboard from './Components/Dashboard';
 import LeadOverview from './Components/LeadOverview';
 import Settings from './Components/Settings';
-import Reports from './Components/Reports'; // ✅ Add this line
+import Reports from './Components/Reports'; 
 
-import './App.css'; // ✅ Optional: for layout styling
+import './App.css'; 
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
             <Route path="/" element={<Dashboard />} />
             <Route path="/leads" element={<LeadOverview />} />
             <Route path="/settings" element={<Settings />} />
-            <Route path="/reports" element={<Reports />} /> {/* ✅ Add this route */}
+            <Route path="/reports" element={<Reports />} /> 
           </Routes>
         </div>
       </div>
